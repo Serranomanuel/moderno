@@ -1,5 +1,5 @@
 import promptSync from 'prompt-sync';
-import { calcularPromedio } from '../modulos/promedio/index.js';
+import { calcularPromedio } from '../modulos/promedio3/index.js';
 
 const prompt = promptSync();
 
