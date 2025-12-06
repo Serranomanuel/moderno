@@ -1,4 +1,4 @@
-import { calcularInventario } from '../modulos/inventario2/index.js';
+import { calcularInventario } from '../modulos/index.js';
 
 import promptSync from 'prompt-sync';
 const prompt = promptSync();

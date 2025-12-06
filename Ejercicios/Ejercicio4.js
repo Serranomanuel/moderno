@@ -1,5 +1,5 @@
 import promptSync from 'prompt-sync';
-import { ordenAsc, ordenDesc } from '../modulos/productos4/index.js';
+import { ordenAsc, ordenDesc } from '../modulos/index.js';
 
 const prompt = promptSync();
 

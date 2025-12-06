@@ -1,4 +1,4 @@
-import { validar } from '../modulos/asistencia1/index.js';
+import { validar } from '../modulo/index.js';
 
 import promptSync from 'prompt-sync';
 const prompt = promptSync();

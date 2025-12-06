@@ -1,5 +1,5 @@
 import promptSync from 'prompt-sync';
-import { validarAcceso } from '../modulos/validar5/index.js';
+import { validarAcceso } from '../modulos/index.js';
 
 const prompt = promptSync();
 

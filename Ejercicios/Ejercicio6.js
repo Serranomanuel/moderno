@@ -1,5 +1,5 @@
 import promptSync from 'prompt-sync';
-import { calcularSalarioBase, calcularDeducciones, calcularNeto  } from '../modulos/nomina6/index.js';
+import { calcularSalarioBase, calcularDeducciones, calcularNeto  } from '../modulos/index.js';
 
 const prompt = promptSync();
 
