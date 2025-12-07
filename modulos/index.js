@@ -1,13 +1,6 @@
 // Archivo barril: centraliza y re-exporta todas las funciones de los módulos
 
-// Importa la función de registro de productos
-
-// Importa la función de búsqueda de cursos
-
-
-// Re-exporta todas las funciones para acceso centralizado desde otros módulos
 export { registrarProductos, buscarCursos };
-
 export { validar } from './funcionesEjer1.js';
 export { calcularAreaPerimetro } from './funcionesEjer2.js';
 export { calcularPromedio } from './funcionesEjer3.js';
