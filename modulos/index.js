@@ -8,3 +8,4 @@ export { registrarProductos } from './modulos/funcionesEjer7';
 export {validar} from './funcionesEjer8.js';
 export { procesarPagos } from './funcionesEjer9.js';
 export {fusionarUsuarios} from './funcionesEjer10.js';
+export * from './funcionesEjer11.js';
