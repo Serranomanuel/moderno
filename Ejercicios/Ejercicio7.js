@@ -1,3 +1,7 @@
+import promptSync from 'prompt-sync';
+const prompt = promptSync();
+import { registrarProductos } from '../modulos/index.js';
+
 function registrarProductos(...productos) {
 	const vistos = new Set();
 	const resultado = [];

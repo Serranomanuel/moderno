@@ -1,6 +1,6 @@
 import promptSync from 'prompt-sync';
 const prompt = promptSync();
-import { buscarCursos } from '../modulos/catalogo/index.js';
+import { buscarCursos } from '../modulos/index.js';
 
 
 export function ejecutarEjercicio8(){console.log("\nRegistro de cursos\n");
