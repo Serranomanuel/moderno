@@ -1,21 +1,29 @@
 import promptSync from 'prompt-sync';
-import { calcularSalarioBase, calcularDeducciones, calcularNeto  } from '../modulos/index.js';
+import { calcularSalarioBase, calcularDeducciones, calcularNeto } from '../modulos/index.js';
 
 const prompt = promptSync();
 
-export function ejecutarEjercicio6(){
-    console.log("\nNomina\n");
-    const valorHora = parseInt(prompt("Ingrese el valor de la hora: "));
+// Función que ejecuta el ejercicio 6: Cálculo de nómina con deducciones
+export function ejecutarEjercicio6() {
+	console.log("\nNomina\n");
+	
+	// Solicita el valor de la hora trabajada
+	const valorHora = parseInt(prompt("Ingrese el valor de la hora: "));
 
-    const horas = parseInt(prompt("Ingrese las horas trabajadas: "));
+	// Solicita la cantidad de horas trabajadas
+	const horas = parseInt(prompt("Ingrese las horas trabajadas: "));
 
-    const base = calcularSalarioBase(horas, valorHora);
+	// Calcula el salario base multiplicando horas por valor de la hora
+	const base = calcularSalarioBase(horas, valorHora);
 
-    const deducciones = calcularDeducciones(base);
+	// Calcula las deducciones (15% del salario base)
+	const deducciones = calcularDeducciones(base);
 
-    const neto = calcularNeto(base, deducciones);
+	// Calcula el salario neto restando deducciones al salario base
+	const neto = calcularNeto(base, deducciones);
 
-    console.log(`
+	// Muestra el reporte de nómina con salario base, deducciones y neto
+	console.log(`
     El salario base es: ${base}
     El total deducciones es: ${deducciones}
     El salario neto es: ${neto}
